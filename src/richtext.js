@@ -132,6 +132,7 @@ class RichText extends PIXI.Container {
                         y: lineState.offset.y,
                     };
                     style.wordWrapWidth = lineState.maxWidth - lineState.offset.x;
+                    textMetrics = PIXI.TextMetrics.measureText(text, style);
                 }
                 if (textMetrics.lines.length > 1) {
                     text = textMetrics.lines[0];
