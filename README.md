@@ -5,6 +5,8 @@ RichText library for RPG Maker
 ### Usage
 
 ```js
+const RichText = require('rm-rich');
+
 const label = new RichText("Test <red>red text</red>", new PIXI.TextStyle({
     fontFamily: 'Arial',
     fill: ['#000000'],
