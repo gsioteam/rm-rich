@@ -1,0 +1,15 @@
+{
+  "name": "rm-rich",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-html-parser": "^5.3.3",
+    "rmmz": "https://github.com/gsioteam/Rpg-Maker-MZ-Typescript.git"
+  }
+}
