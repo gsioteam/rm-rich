@@ -19,6 +19,7 @@ class LineState {
         this.lineBlocks = [];
         this.offset.x = 0;
         this.offset.y += this.lineHeight === 0 ? 12 : this.lineHeight;
+        this.lineHeight = 0;
     }
 
     /**
