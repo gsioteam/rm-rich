@@ -78,7 +78,7 @@ class RichText extends PIXI.Container {
 
     updateText() {
         for (let block of this._blocks) {
-            block.destory({
+            block.destroy({
                 children: true,
                 texture: true,
                 baseTexture: true,
